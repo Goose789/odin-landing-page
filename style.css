@@ -83,8 +83,10 @@ nav a {
 
 .image {
   display: block;
+  width: auto;
+  height: auto;
   max-width: 100%;
-  height: 310px;
+  max-height: 310px;
   object-fit: contain;
 }
 
@@ -177,4 +179,11 @@ nav a {
 footer {
     text-align: center;
     font-size: 12px;
+}
+
+.button, .button2, .illustration {
+    transition: transform 0.25s ease-in-out;
+}
+.button:hover, .button2:hover, .illustration:hover{
+    transform: scale(1.1);
 }
