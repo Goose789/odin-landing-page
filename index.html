@@ -8,69 +8,85 @@
 </head>
 <body>
     <div class="all">
-        <div class="header">
-            <div class="logo">Header Logo</div>
-            <div> 
-                <ul> 
-                    <li><a href="https://duckduckgo.com">header link one</a></li>
-                    <li><a href="https://duckduckgo.com">header link two</a></li>
-                    <li><a href="https://duckduckgo.com">header link three</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="main">
-            <div class="box1">
+        <header class="navbar">
+            <h1 class="logo">Header Logo</h1>
+
+            <nav class="tabs"> 
+                <a href="https://duckduckgo.com">header link one</a>
+                <a href="https://duckduckgo.com">header link two</a>
+                <a href="https://duckduckgo.com">header link three</a>
+            </nav>
+        </header>
+        <main>
+            <section class="box1">
                 <div class="box1left">
-                    <div class="title">This website is awesome</div>
-                    <div class="subtext">This website has some subtext that goes here under the main title</div>
+                    <h2 class="title">This website is awesome</h2>
+
+                    <p class="subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.
+                    </p>
+
                     <a class="button" href="https://duckduckgo.com/">Sign up</a>
                 </div>
-                <div class="box1right">
-                    <div class="imageplaceholder">This is a placeholder for an image</div>
-                </div>
-            </div>
-            <div class="box2">
-                <div class="box2text">
-                    Some random information.
-                </div>
+                <img 
+                    class="image"
+                    src="image/puffin.jpg"
+                    alt="Puffin"
+                />
+            </section>
+            <section class="box2">
+                <h2 class="box2text">Some random information.</h2>
+
                 <div class="illuboxes" >
                     <div class="illubox">
                         <div class="illustration"></div>
-                        <div class="illutxt">this is some subtext under an illustration or image</div>
+                        <p class="illu-p">
+                            this is some subtext under an illustration or image
+                        </p>
                     </div>
+
                     <div class="illubox">
                         <div class="illustration"></div>
-                        <div class="illutxt">this is some subtext under an illustration or image</div>
+                        <p class="illu-p">
+                            this is some subtext under an illustration or image
+                        </p>
                     </div>
+
                     <div class="illubox">
                         <div class="illustration"></div>
-                        <div class="illutxt">this is some subtext under an illustration or image</div>
+                        <p class="illu-p">
+                            this is some subtext under an illustration or image
+                        </p>
                     </div>
+
                     <div class="illubox">
                         <div class="illustration"></div>
-                        <div class="illutxt">this is some subtext under an illustration or image</div>
+                        <p class="illu-p">
+                            this is some subtext under an illustration or image
+                        </p>
                     </div>
                 </div>
-            </div>
-            <div class="box3">
-                <div class="box3text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
-                <div class="box3namedropping">-Thor, God of Thunder</div>
-            </div>
-            <div class="box4">
+            </section>
+            <section class="box3">
+                <p class="box3text">
+                    This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+                </p>
+                <p class="box3namedropping">-Thor, God of Thunder</p>
+            </section>
+            <section class="box4">
                 <div class="window">
                     <div class="box4left">
-                        <div class="box4txt1">Call to action! It's time!</div>
-                        <div class="box4txt2">Sign up for our product by clicking that button right over there</div>
+                        <h3 class="box4txt1">Call to action! It's time!</h3>
+                        <p class="box4txt2">
+                            Sign up for our product by clicking that button right over there
+                        </p>
                     </div>
-                    <div class="box4right">
-                        <a class="button2" href="https://duckduckgo.com/">Sign up</a>
-                    </div>
+                    <a class="button2" href="https://duckduckgo.com/">Sign up</a>
                 </div>  
-            </div>
-        </div>
-        <div class="footer">
-            <div>Copyright © The Odin Project 2021</div>
-        </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <h4>Copyright © The Odin Project 2021</h4>
+        </footer>
     </div>
 </body>
 </html>
